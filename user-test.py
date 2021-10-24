@@ -21,4 +21,11 @@ def test_init(self):
         self.assertEqual(self.new_user.user_name,"Evan")
         
        
-        self.assertEqual(self.new_user.password,"2021")            
+        self.assertEqual(self.new_user.password,"2021") 
+def test_save_user(self):
+        '''
+        test_save_user test case to test if the user object is saved into
+         the user list
+        '''
+        self.new_user.save_user() # saving the new contact
+        self.assertEqual(len(user.user_list),1)                    
