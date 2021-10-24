@@ -69,5 +69,11 @@ class Credentials:
         delete_account method deletes a saved Credential from accounts
         """
         Credentials.accounts.remove(self)
-                           
+    @classmethod
+    def display_accounts(cls):
+        """
+        method that returns a list of  the accounts
+        """
+        for account in cls.accounts:
+            return cls.accounts                       
                 
