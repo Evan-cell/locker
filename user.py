@@ -39,5 +39,11 @@ class User:
         """
         for user in cls.userslist:
             if user.password == number:
-                return user       
+                return user
+    @classmethod
+    def user_exist(cls,number):
+        for user in cls.userslist:
+            if user.username == number:
+                return True
+                return False               
                 
