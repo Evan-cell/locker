@@ -38,4 +38,6 @@ def test_delete_user(self):
             test_user.save_user()
 
             self.new_user.delete_user()# Deleting a contact object
-            self.assertEqual(len(user.user_list),1)                              
+            self.assertEqual(len(user.user_list),1)   
+if __name__ == '__main__':
+    unittest.main()                                          
