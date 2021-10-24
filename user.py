@@ -63,5 +63,11 @@ class Credentials:
         """
         save_account method saves user info into accounts
         """
-        Credentials.accounts.append(self)                       
+        Credentials.accounts.append(self)
+    def delete_account(self):
+        """
+        delete_account method deletes a saved Credential from accounts
+        """
+        Credentials.accounts.remove(self)
+                           
                 
