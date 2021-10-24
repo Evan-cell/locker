@@ -3,11 +3,23 @@ This is a  password vault application created by Evan
 # Description
 The app helps the user to sign up put his or her details and then be able to login and also be able to add more accounts. The user can be able to see his or her saved info including passwords and all the info
 
+# Features
+It uses python3.6.
+
 # Setup/Installation Requirements
 In order to run this project your can git clone it and then open the app in the editor of your choice,open your terminal and run the run.py file and the app will kick start
 
 # Known Bugs
 If you put in a wrong command line the application will not run
+
+# Contributors
+Evan kimani
+
+# Code scaffolding
+Run python3.6 run.py command to run the application.
+
+# Testing
+use the command python3.6 user_test.py to test the functionality of the application.
 
 # Behaviour Driven Development
 The program should return a users credentials when "VA" is chosen.
